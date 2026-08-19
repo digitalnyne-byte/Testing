@@ -42,27 +42,40 @@ export default function Footer() {
             <p className="text-sm text-white/50 leading-relaxed mb-5 font-medium">
               Growth Studio for businesses in Visakhapatnam and beyond.
             </p>
-            <div className="flex gap-3">
-              {['instagram', 'linkedin', 'youtube', 'twitter']?.map((s) => (
-                <a
-                  key={s}
-                   href={
-        s === 'instagram'
-          ? 'https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay'
-          : s === 'youtube'
-          ? 'https://youtube.com/@digitalnynegrowthstudio?si=YvcfAvwctvynralz'
-          : '#'
-      }
-      target="_blank"
-      rel="noopener noreferrer"
-                  aria-label={`Follow on ${s}`}
-                  className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
-                >
-                  <span className="text-xs font-bold text-white/60 hover:text-white capitalize">{s?.[0]?.toUpperCase()}</span>
-                </a>
-              ))}
-            </div>
-          </div>
+import { FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
+<div className="flex gap-3">
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaInstagram className="text-white text-lg" />
+  </a>
+
+  {/* YouTube */}
+  <a
+    href="https://youtube.com/@digitalnynegrowthstudio?si=YvcfAvwctvynralz"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="YouTube"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaYoutube className="text-white text-lg" />
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:hello@digitalnyne.com"
+    aria-label="Email"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaEnvelope className="text-white text-lg" />
+  </a>
+</div>
+
 
           {/* Services */}
           <div>
