@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import AppLogo from '@/components/ui/AppLogo';
+import { FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
 
 const WHATSAPP_NUMBER = '919398461937';
 const WHATSAPP_DISPLAY = '+91 79952 91377';
@@ -42,7 +43,7 @@ export default function Footer() {
             <p className="text-sm text-white/50 leading-relaxed mb-5 font-medium">
               Growth Studio for businesses in Visakhapatnam and beyond.
             </p>
-import { FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
+
 <div className="flex gap-3">
   {/* Instagram */}
   <a
@@ -68,7 +69,7 @@ import { FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
 
   {/* Email */}
   <a
-    href="mailto:hello@digitalnyne.com"
+    href="mailto:info@digitalnyne.com"
     aria-label="Email"
     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
   >
