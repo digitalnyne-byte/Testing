@@ -46,7 +46,13 @@ export default function Footer() {
               {['instagram', 'linkedin', 'youtube', 'twitter']?.map((s) => (
                 <a
                   key={s}
-                  href="#"
+                   href={
+        s === 'instagram'
+          ? 'https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay'
+          : '#'
+      }
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={`Follow on ${s}`}
                   className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
                 >
