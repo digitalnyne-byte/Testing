@@ -49,10 +49,12 @@ export default function Footer() {
                    href={
         s === 'instagram'
           ? 'https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay'
+          : s === 'youtube'
+          ? 'https://youtube.com/@digitalnynegrowthstudio?si=YvcfAvwctvynralz'
           : '#'
       }
-                  target="_blank"
-                  rel="noopener noreferrer"
+      target="_blank"
+      rel="noopener noreferrer"
                   aria-label={`Follow on ${s}`}
                   className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
                 >
