@@ -76,7 +76,7 @@ export default function Footer() {
     <FaEnvelope className="text-white text-lg" />
   </a>
 </div>
-
+   </div>
 
           {/* Services */}
           <div>
