@@ -283,7 +283,6 @@ export default function AboutPage() {
       <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden flex-shrink-0">
         <img
           src={member.photo}
-          alt={member.name}
           className="w-full h-full object-cover"
         />
       </div>
