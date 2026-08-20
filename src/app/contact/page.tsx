@@ -7,6 +7,7 @@ import WhatsAppWidget from '@/components/WhatsAppWidget';
 import BackArrow from '@/components/BackArrow';
 import { createClient } from '@/lib/supabase/client';
 import { trackEvent } from '@/lib/analytics';
+import { FaInstagram, FaYoutube, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 const WHATSAPP_NUMBER = '919398461937';
 const WHATSAPP_DISPLAY = '+919398461937';
@@ -406,13 +407,49 @@ export default function ContactPage() {
                 <div className="bg-card border border-border rounded-2xl p-6">
                   <h3 className="text-sm font-extrabold text-foreground mb-4">Follow Us</h3>
                   <div className="flex gap-3">
-                    {['Instagram', 'LinkedIn', 'Facebook', 'YouTube'].map((s) => (
-                      <div key={s} title={`${s} — TO BE CONFIGURED`} className="w-9 h-9 rounded-xl bg-muted flex items-center justify-center cursor-pointer hover:bg-primary/10 transition-colors">
-                        <span className="text-xs font-bold text-muted-foreground">{s[0]}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-xs text-muted-foreground mt-3 font-medium">Social links — TO BE CONFIGURED</p>
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaInstagram className="text-white text-lg" />
+  </a>
+
+  {/* YouTube */}
+  <a
+    href="https://youtube.com/@digitalnynegrowthstudio?si=YvcfAvwctvynralz"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="YouTube"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaYoutube className="text-white text-lg" />
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:info@digitalnyne.com"
+    aria-label="Email"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaEnvelope className="text-white text-lg" />
+  </a>
+
+  {/* FaceBook*/}
+    <a
+    href="https://www.facebook.com/share/1DHB7rfiZb/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="FaceBook"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaFacebook className="text-white text-lg" />
+  </a>
+</div>
+                  
                 </div>
               </div>
             </div>
