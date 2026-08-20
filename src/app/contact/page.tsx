@@ -418,7 +418,7 @@ export default function ContactPage() {
     <img
       src="/assets/images/Instagram_icon.png"
       alt="Instagram"
-      className="w-12 h-12 object-contain hover:scale-110 transition-transform"
+      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -430,7 +430,11 @@ export default function ContactPage() {
     aria-label="YouTube"
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
-    <FaYoutube className="text-white text-lg" />
+    <img
+      src="/assets/images/Instagram_icon.png"
+      alt="Instagram"
+      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* Email */}
@@ -439,7 +443,11 @@ export default function ContactPage() {
     aria-label="Email"
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
-    <FaEnvelope className="text-white text-lg" />
+    <img
+      src="/assets/images/Instagram_icon.png"
+      alt="Instagram"
+      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* FaceBook*/}
@@ -450,7 +458,11 @@ export default function ContactPage() {
     aria-label="FaceBook"
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
-    <FaFacebook className="text-white text-lg" />
+    <img
+      src="/assets/images/Instagram_icon.png"
+      alt="Instagram"
+      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 </div>
                   
