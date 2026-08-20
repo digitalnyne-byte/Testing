@@ -5,7 +5,7 @@ import { FaInstagram, FaYoutube, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 const WHATSAPP_NUMBER = '919398461937';
 const WHATSAPP_DISPLAY = '+919398461937';
-const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '';
+const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || 'https://calendar.app.google/22GGnqKDoMrHeT6FA' || '';
 
 const serviceLinks = [
   { label: 'Content Creation', href: '/services#content-creation' },
