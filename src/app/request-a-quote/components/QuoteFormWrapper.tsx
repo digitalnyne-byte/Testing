@@ -69,7 +69,7 @@ const INDUSTRIES = [
 const STEPS = ['Services', 'Business Info', 'Requirements', 'Review'];
 
 const WHATSAPP_NUMBER = '919398461937';
-const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '';
+const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || 'https://calendar.app.google/22GGnqKDoMrHeT6FA' || '';
 
 const initialFormData: FormData = {
   selectedServices: [],
