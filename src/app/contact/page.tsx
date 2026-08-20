@@ -9,7 +9,7 @@ import { createClient } from '@/lib/supabase/client';
 import { trackEvent } from '@/lib/analytics';
 
 const WHATSAPP_NUMBER = '919398461937';
-const WHATSAPP_DISPLAY = '+91 79952 91377';
+const WHATSAPP_DISPLAY = '+919398461937';
 const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '';
 
 function GlowingWhatsAppIcon() {
@@ -209,8 +209,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-sm font-extrabold text-foreground mb-1">Location</p>
-                  <p className="text-xs text-muted-foreground font-medium">Visakhapatnam</p>
-                  <p className="text-xs text-muted-foreground font-medium">Andhra Pradesh, India</p>
+                  <p className="text-xs text-muted-foreground font-medium">504, 5th floor, Kotu Empire, VIP Rd, Siripuram, Visakhapatnam,</p>
+                  <p className="text-xs text-muted-foreground font-medium">Andhrapradesh, 530003 India</p>
                 </div>
               </div>
             </div>
@@ -390,9 +390,7 @@ export default function ContactPage() {
                   </h3>
                   <div className="space-y-2">
                     {[
-                      { day: 'Monday to Friday', hours: '9:00 AM to 6:00 PM' },
-                      { day: 'Saturday', hours: '10:00 AM to 2:00 PM' },
-                      { day: 'Sunday', hours: 'Closed' },
+                      { day: 'Monday to Sunday', hours: '9:00 AM to 6:00 PM' },                          
                     ].map((row) => (
                       <div key={row.day} className="flex justify-between text-xs font-medium">
                         <span className="text-muted-foreground">{row.day}</span>
