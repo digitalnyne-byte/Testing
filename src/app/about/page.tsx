@@ -283,7 +283,7 @@ export default function AboutPage() {
       <div className="w-36 h-36 rounded-full mx-auto mb-4 overflow-hidden flex-shrink-0">
         <img
           src={member.photo}
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-center"
         />
       </div>
 
