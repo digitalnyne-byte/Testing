@@ -272,7 +272,7 @@ export default function AboutPage() {
       name: 'P.Laya',
       role: 'Technology and Data Lead',
       email: 'laya@digitalnyne.com',
-      photo: '/assets/images/Pic.jpeg',
+      photo: '/assets/images/team_mem_4.jpeg',
     },
   ].map((member) => (
     <div
