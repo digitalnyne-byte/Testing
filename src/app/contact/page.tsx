@@ -413,12 +413,12 @@ export default function ContactPage() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
-    className="w-10 h-10 rounded-lg bg-[#E4405F] hover:opacity-80 transition flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Instagram_icon.png"
       alt="Instagram"
-      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -431,9 +431,9 @@ export default function ContactPage() {
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <img
-      src="/assets/images/Instagram_icon.png"
+      src="assets/images/youtube-logo.png"
       alt="Instagram"
-      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -444,9 +444,9 @@ export default function ContactPage() {
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <img
-      src="/assets/images/Instagram_icon.png"
+      src="/assets/images/Gmail-logo.png"
       alt="Instagram"
-      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -459,9 +459,9 @@ export default function ContactPage() {
     className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <img
-      src="/assets/images/Instagram_icon.png"
+      src="/assets/images/Facebook_Logo_.png"
       alt="Instagram"
-      className="w-10 h-10 object-contain hover:scale-110 transition-transform"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
 </div>
