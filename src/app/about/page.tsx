@@ -266,7 +266,7 @@ export default function AboutPage() {
       name: 'U.Charishma',
       role: 'Marketing & Growth Lead',
       email: 'charishma@digitalnyne.com',
-      photo: '/assets/images/team-member-3.jpg',
+      photo: '/assets/images/Team_mem_3.jpeg',
     },
     {
       name: 'P.Laya',
