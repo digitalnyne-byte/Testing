@@ -260,7 +260,7 @@ export default function AboutPage() {
       name: 'AJ Santosh Kumar',
       role: 'Co-Founder & Business Director',
       email: 'ajsantosh@digitalnyne.com',
-      photo: '/assets/images/team-member-2.jpg',
+      photo: '/assets/images/Team_mem_2.jpeg',
     },
     {
       name: 'U.Charishma',
