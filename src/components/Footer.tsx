@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import AppLogo from '@/components/ui/AppLogo';
-import { FaInstagram, FaYoutube, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 const WHATSAPP_NUMBER = '919398461937';
 const WHATSAPP_DISPLAY = '+91 79952 91377';
@@ -74,6 +74,17 @@ export default function Footer() {
     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
   >
     <FaEnvelope className="text-white text-lg" />
+  </a>
+
+  {/* FaceBook*/}
+    <a
+    href="https://www.facebook.com/share/1DHB7rfiZb/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="FaceBook"
+    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+  >
+    <FaFacebook className="text-white text-lg" />
   </a>
 </div>
    </div>
@@ -153,7 +164,7 @@ export default function Footer() {
                   Book Free Strategy Call
                 </span>
               )}
-              <p className="text-sm text-white/50 font-medium">Visakhapatnam, Andhra Pradesh</p>
+              <p className="text-sm text-white/50 font-medium">504, 5th floor, Kotu Empire, VIP Rd, Siripuram, Visakhapatnam, Andhrapradesh, 530003</p>
             </div>
           </div>
         </div>
