@@ -79,7 +79,7 @@ export default function Footer() {
   <a
     href="mailto:info@digitalnyne.com"
     aria-label="Email"
-    className="w-7 h-7 rounded-lg bg-primary transition-colors flex items-center justify-center"
+    className="w-7 h-7 rounded-lg bg-white transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Gmail-logo.png"
