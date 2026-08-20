@@ -432,7 +432,7 @@ export default function ContactPage() {
   >
     <img
       src="assets/images/youtube-logo.png"
-      alt="Instagram"
+      alt="YouTube"
       className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
@@ -441,11 +441,11 @@ export default function ContactPage() {
   <a
     href="mailto:info@digitalnyne.com"
     aria-label="Email"
-    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-white hover:bg-accent transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Gmail-logo.png"
-      alt="Instagram"
+      alt="Email"
       className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
@@ -460,7 +460,7 @@ export default function ContactPage() {
   >
     <img
       src="/assets/images/Facebook_Logo_.png"
-      alt="Instagram"
+      alt="FaceBook"
       className="w-9 h-9 object-contain hover:scale-110 transition-transform"
     />
   </a>
