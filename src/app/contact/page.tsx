@@ -424,7 +424,7 @@ export default function ContactPage() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="YouTube"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <FaYoutube className="text-white text-lg" />
   </a>
@@ -433,7 +433,7 @@ export default function ContactPage() {
   <a
     href="mailto:info@digitalnyne.com"
     aria-label="Email"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <FaEnvelope className="text-white text-lg" />
   </a>
@@ -444,7 +444,7 @@ export default function ContactPage() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="FaceBook"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
   >
     <FaFacebook className="text-white text-lg" />
   </a>
