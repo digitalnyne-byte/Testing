@@ -249,24 +249,80 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
-              {[
-                { name: 'Team Member 1', role: 'Founder and Growth Strategy' },
-                { name: 'Team Member 2', role: 'Creative and Branding' },
-                { name: 'Team Member 3', role: 'Digital Marketing' },
-                { name: 'Team Member 4', role: 'Technology and Web Solutions' },
-              ].map((member) => (
-                <div key={member.role} className="bg-card rounded-2xl p-6 shadow-card border border-border text-center flex flex-col items-center">
-                  <div className="w-20 h-20 rounded-full bg-muted mx-auto mb-4 flex items-center justify-center overflow-hidden flex-shrink-0">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-muted-foreground">
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" /><circle cx="12" cy="7" r="4" />
-                    </svg>
-                  </div>
-                  <p className="text-sm font-extrabold text-foreground mb-1">{member.name}</p>
-                  <p className="text-xs font-bold tracking-widest uppercase text-primary mb-2">{member.role}</p>
-                  <p className="text-xs text-muted-foreground font-medium">TO BE CONFIGURED</p>
-                </div>
-              ))}
-            </div>
+  {[
+    {
+      name: 'P.Yaswanth',
+      role: 'Co-Founder & Creative Director',
+      email: 'yaswanth@digitalnyne.com',
+      photo: '/assets/images/team-member-1.jpg',
+    },
+    {
+      name: 'AJ Santosh Kumar',
+      role: 'Co-Founder & Business Director',
+      email: 'ajsantosh@digitalnyne.com',
+      photo: '/assets/images/team-member-2.jpg',
+    },
+    {
+      name: 'U.Charishma',
+      role: 'Marketing & Growth Lead',
+      email: 'charishma@digitalnyne.com',
+      photo: '/assets/images/team-member-3.jpg',
+    },
+    {
+      name: 'P.Laya',
+      role: 'Technology and Data Lead',
+      email: 'laya@digitalnyne.com',
+      photo: '/assets/images/team-member-4.jpg',
+    },
+  ].map((member) => (
+    <div
+      key={member.email}
+      className="bg-card rounded-2xl p-6 shadow-card border border-border text-center flex flex-col items-center"
+    >
+      {/* Team Member Photo */}
+      <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden flex-shrink-0">
+        <img
+          src={member.photo}
+          alt={member.name}
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Name */}
+      <p className="text-sm font-extrabold text-foreground mb-1">
+        {member.name}
+      </p>
+
+      {/* Role */}
+      <p className="text-xs font-bold tracking-widest uppercase text-primary mb-3">
+        {member.role}
+      </p>
+
+      {/* Email Button */}
+      <a
+        href={`mailto:${member.email}`}
+        className="inline-flex items-center gap-2 text-xs font-semibold text-primary hover:text-accent transition-colors"
+        aria-label={`Email ${member.name}`}
+      >
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m3 7 9 6 9-6" />
+        </svg>
+
+        {member.email}
+      </a>
+    </div>
+  ))}
+</div>
           </div>
         </section>
 
