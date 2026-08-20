@@ -138,7 +138,7 @@ export default function HeroSection() {
                 </svg>
               </Link>
               <a
-                href={process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '#'}
+                href={process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || 'https://calendar.app.google/22GGnqKDoMrHeT6FA' || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary !py-3.5 !px-7 !text-base !bg-white/10 !border-white/30 !text-white hover:!bg-white/20">

@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { trackEvent } from '@/lib/analytics';
 
-const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '';
+const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || 'https://calendar.app.google/22GGnqKDoMrHeT6FA' || '';
 
 function StrategyCallCard() {
   const handleBookingClick = () => {
