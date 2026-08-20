@@ -4,7 +4,7 @@ import AppLogo from '@/components/ui/AppLogo';
 import { FaInstagram, FaYoutube, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 const WHATSAPP_NUMBER = '919398461937';
-const WHATSAPP_DISPLAY = '+91 79952 91377';
+const WHATSAPP_DISPLAY = '+919398461937';
 const GOOGLE_BOOKING_URL = process.env.NEXT_PUBLIC_GOOGLE_BOOKING_URL || '';
 
 const serviceLinks = [
