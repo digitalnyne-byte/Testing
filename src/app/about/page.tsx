@@ -280,7 +280,7 @@ export default function AboutPage() {
       className="bg-card rounded-2xl p-6 shadow-card border border-border text-center flex flex-col items-center"
     >
       {/* Team Member Photo */}
-      <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden flex-shrink-0">
+      <div className="w-36 h-36 rounded-full mx-auto mb-4 overflow-hidden flex-shrink-0">
         <img
           src={member.photo}
           className="w-full h-full object-cover"
