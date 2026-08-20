@@ -51,7 +51,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
-    className="w-9 h-9 rounded-lg bg-primary transition-colors flex items-center justify-center"
+    className="w-7 h-7 rounded-lg bg-primary transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Instagram_icon.png"
@@ -66,7 +66,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="YouTube"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-7 h-7 rounded-lg bg-primary transition-colors flex items-center justify-center"
   >
    <img
       src="/assets/images/youtube-logo.png"
@@ -79,7 +79,7 @@ export default function Footer() {
   <a
     href="mailto:info@digitalnyne.com"
     aria-label="Email"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-7 h-7 rounded-lg bg-primary transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Gmail-logo.png"
@@ -94,7 +94,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="FaceBook"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-7 h-7 rounded-lg bg-primary transition-colors flex items-center justify-center"
   >
     <img
       src="/assets/images/Facebook_Logo_.png"
