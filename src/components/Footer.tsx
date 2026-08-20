@@ -56,7 +56,7 @@ export default function Footer() {
     <img
       src="/assets/images/Instagram_icon.png"
       alt="Instagram"
-      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+      className="w-7 h-7 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -71,7 +71,7 @@ export default function Footer() {
    <img
       src="/assets/images/youtube-logo.png"
       alt="Instagram"
-      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+      className="w-7 h-7 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -84,7 +84,7 @@ export default function Footer() {
     <img
       src="/assets/images/Gmail-logo.png"
       alt="Instagram"
-      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+      className="w-7 h-7 object-contain hover:scale-110 transition-transform"
     />
   </a>
 
@@ -99,7 +99,7 @@ export default function Footer() {
     <img
       src="/assets/images/Facebook_Logo_.png"
       alt="Instagram"
-      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+      className="w-7 h-7 object-contain hover:scale-110 transition-transform"
     />
   </a>
 </div>
