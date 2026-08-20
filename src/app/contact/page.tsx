@@ -415,7 +415,11 @@ export default function ContactPage() {
     aria-label="Instagram"
     className="w-10 h-10 rounded-lg bg-[#E4405F] hover:opacity-80 transition flex items-center justify-center"
   >
-    <FaInstagram className="text-white text-lg" />
+    <img
+      src="/assets/images/Instagram_icon.png"
+      alt="Instagram"
+      className="w-12 h-12 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* YouTube */}
