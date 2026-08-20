@@ -254,7 +254,7 @@ export default function AboutPage() {
       name: 'P.Yaswanth',
       role: 'Co-Founder & Creative Director',
       email: 'yaswanth@digitalnyne.com',
-      photo: '/assets/images/team-member-1.jpg',
+      photo: '/assets/images/Team_mem_1.jpeg',
     },
     {
       name: 'AJ Santosh Kumar',
