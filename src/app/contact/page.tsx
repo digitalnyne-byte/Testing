@@ -413,7 +413,7 @@ export default function ContactPage() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
-    className="w-9 h-9 rounded-lg bg-primary hover:bg-accent transition-colors flex items-center justify-center"
+    className="w-10 h-10 rounded-lg bg-[#E4405F] hover:opacity-80 transition flex items-center justify-center"
   >
     <FaInstagram className="text-white text-lg" />
   </a>
