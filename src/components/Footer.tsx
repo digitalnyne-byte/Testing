@@ -46,14 +46,18 @@ export default function Footer() {
 
 <div className="flex gap-3">
   {/* Instagram */}
-  <a
+    <a
     href="https://www.instagram.com/digitalnyne_growth_studio?igsh=dXhzdzdvOTExZ3Ay"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
-    className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
+    className="w-9 h-9 rounded-lg bg-primary transition-colors flex items-center justify-center"
   >
-    <FaInstagram className="text-white text-lg" />
+    <img
+      src="/assets/images/Instagram_icon.png"
+      alt="Instagram"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* YouTube */}
@@ -64,7 +68,11 @@ export default function Footer() {
     aria-label="YouTube"
     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
   >
-    <FaYoutube className="text-white text-lg" />
+   <img
+      src="/assets/images/youtube-logo.png"
+      alt="Instagram"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* Email */}
@@ -73,7 +81,11 @@ export default function Footer() {
     aria-label="Email"
     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
   >
-    <FaEnvelope className="text-white text-lg" />
+    <img
+      src="/assets/images/Gmail-logo.png"
+      alt="Instagram"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 
   {/* FaceBook*/}
@@ -84,7 +96,11 @@ export default function Footer() {
     aria-label="FaceBook"
     className="w-9 h-9 rounded-lg bg-white/10 hover:bg-primary transition-colors flex items-center justify-center"
   >
-    <FaFacebook className="text-white text-lg" />
+    <img
+      src="/assets/images/Facebook_Logo_.png"
+      alt="Instagram"
+      className="w-9 h-9 object-contain hover:scale-110 transition-transform"
+    />
   </a>
 </div>
    </div>
