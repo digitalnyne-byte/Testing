@@ -390,7 +390,8 @@ export default function ContactPage() {
                   </h3>
                   <div className="space-y-2">
                     {[
-                      { day: 'Monday to Sunday', hours: '9:00 AM to 6:00 PM' },                          
+                      { day: 'Monday to Saturday', hours: '9:00 AM to 6:00 PM' },   
+                      { day: 'Sunday', hours: 'Closed'},
                     ].map((row) => (
                       <div key={row.day} className="flex justify-between text-xs font-medium">
                         <span className="text-muted-foreground">{row.day}</span>
